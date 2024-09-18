@@ -5,7 +5,7 @@ import os
 # Set your Anthropic API key here (it's better to use an environment variable)
 client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
 
-st.title("Mental Health Wellness Chat with Claude")
+st.title("ZUI Mental Health Wellness Chat")
 
 # Initialize chat history
 if "messages" not in st.session_state:
