@@ -30,9 +30,9 @@ for message in st.session_state.messages:
 # React to user input
 if prompt := st.chat_input("What's on your mind?"):
     # Display user message in chat message container
-    st.chat_message("human").markdown(prompt)
+    st.chat_message("user").markdown(prompt)  # Changed 'human' to 'user'
     # Add user message to chat history
-    st.session_state.messages.append({"role": "human", "content": prompt})
+    st.session_state.messages.append({"role": "user", "content": prompt})
 
     try:
         # Call Claude API
