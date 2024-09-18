@@ -5,7 +5,7 @@ import os
 # Set your Anthropic API key here (it's better to use an environment variable)
 client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
 
-st.title("Mental Health Wellness Chat with Claude")
+st.title("ZUI Mental Health Wellness Chat")
 
 # Define the system message
 SYSTEM_MESSAGE = """You are a compassionate, active listener focused on providing support for mental health wellness. Your primary goals are to be comforting, attentive, and affirming in your responses. When engaging in conversation, you should:
