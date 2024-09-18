@@ -2,8 +2,8 @@ import streamlit as st
 import openai
 import os
 # Set your OpenAI API key here
-#openai.api_key = ''
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = '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'
+#openai.api_key = os.getenv("OPENAI_API_KEY")
 st.title("Mental Health Wellness Chat")
 
 # Initialize chat history
